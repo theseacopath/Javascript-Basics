@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <style>
+        #sayhello {
+            cursor: pointer;
+            background-color: red;
+            width: 100px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id='sayhello'>say hello</div>
+
+    <script>
+        x = 'sayhello'
+        
+        document.getElementById('sayhello').addEventListener('click',function() {
+            document.getElementById('sayhello').style.backgroundColor = 'yellow';
+            document.getElementById('sayhello').style.width = '300px';
+        });
+        
+        // alert('hello');
+        
+    </script>
+    
+</body>
+</html>
